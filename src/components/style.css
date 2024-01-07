@@ -1,0 +1,189 @@
+/* style.css */
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header li {
+    margin-right: 20px;
+  }
+  
+  .header li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .header li a:hover {
+    color: #61dafb;
+  }
+  
+  .about-section{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+  }
+  .about-content{
+    width:30%;
+  }
+  .about-content span{
+    color:#a82688;
+  }
+  .about-img{
+    width:300px;
+    height:300px;
+  } 
+  .projects-btn{
+    background-color:#a82688 ;
+    font-weight:600;
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:white;
+  } 
+  .projects-btn a{
+    text-decoration: none;
+    color:White;
+  }
+  .linked-in-btn{
+    color:#a82688 ;
+    font-weight:600;
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:#a82688;
+    margin-left: 2rem;
+  }
+  .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .Add-project-container{
+    display: flex;
+    flex-direction: column;
+    width:30%;    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:500px;
+
+    margin:.5rem;
+    text-align: center;
+  }
+  .Add-project-container a{
+    text-decoration: none;
+    background-color: #a82688;
+    color:white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(77, 72, 72);
+    width:90px;
+    height:30px;
+    font-size:12px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: .5rem;
+    margin-left: 10rem;
+    margin-bottom:1rem ;
+  }
+
+  .Add-project-container h4{
+    color:#a82688
+  }
+  .project-section{
+    margin-top: 3rem;
+  }
+  .input-section{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    
+  } 
+  .input-container{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .input-container input{
+    width:250px;
+    height:15px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .input-container textarea{
+    
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .heading{
+    text-align: center;
+    color:#57264b;
+  }
+  .input-section form{
+    display: flex;
+    flex-direction: column;
+  }
+  .input-section div{
+    margin:.5rem;
+  }
+  .btn{
+    background-color:#a82688 ;
+    font-weight:600;
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:white;
+    color:white; 
+    margin-left: 3rem; 
+  }
+  /* ContactInfoPage.css */
+
+.contact-info-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+h1 {
+  color: #333;
+}
